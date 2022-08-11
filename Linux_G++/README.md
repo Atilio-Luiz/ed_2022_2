@@ -74,7 +74,7 @@ g++-11 version
 
 ### Passo 5. Criando uma lista de alternativas do g++ usando ferramentas de atualização de alternativas
 
-A ferramenta **update-alternative** é usada para criar uma lista de várias alternativas de compilador g++. Usando os comandos abaixo mencionados, o usuário pode criar a lista de várias alternativas g++ no sistema Ubuntu:
+A ferramenta **update-alternatives** é usada para criar uma lista de várias alternativas de compilador g++. Usando os comandos abaixo mencionados, o usuário pode criar a lista de várias alternativas g++ no sistema Ubuntu:
 
 ```
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
@@ -101,5 +101,10 @@ Verifique a versão g++ disponível na lista exibida no terminal da seguinte for
 
 Escolha a versão do compilador g++ que você deseja usar como o compilador padrão para desenvolvimento de software. Pressione 'enter' para manter a escolha atual definida como padrão ou selecione o número da lista de alternativas do g++.
 
+Agora, você pode verificar a versão do g++ que está sendo usada com o seguinte comando:
 
+```
+g++ --version
+```
 
+![](images/tela4.png)
