@@ -108,3 +108,5 @@ g++ --version
 ```
 
 ![](images/tela4.png)
+
+Pronto! Com isso, a versão mais recente do compilador g++ está instalada no seu Ubuntu!
