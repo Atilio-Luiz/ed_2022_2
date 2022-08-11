@@ -10,6 +10,10 @@ Para instalá-lo, você pode pesquisar no marketplace do VS Code.
 
 Após a instalação, reinicie o VS Code.
 
+---
+
+## Criando um programa C++ simples
+
 Crie um arquivo com nome **test.cpp** e abra-o no VS Code. 
 Digite o seguinte código C++ no arquivo e salve-o: 
 
@@ -25,6 +29,8 @@ int main()
     return 0;
 }
 ```
+
+---
 
 ## Executando seu código usando o Code Runner
 
