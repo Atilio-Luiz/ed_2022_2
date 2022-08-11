@@ -69,4 +69,13 @@ O código será executado e a saída será mostrada na janela de saída. Abra a 
 ![](images/tela6.png)
 
 
+## Para parar o código em execução
+
+- Use o atalho Ctrl+Alt+M.
+- Ou pressione F1 e selecione/digite **Stop Code Run** (Parar a execução do código).
+- Ou clique com o botão direito na janela de saída e clique em **Stop Code Run** no menu de contexto.
+
+Viva! Você acabou de configurar com sucesso seu ambiente C++ no VS Code!
+
+
 
