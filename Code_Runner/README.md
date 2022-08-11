@@ -10,6 +10,30 @@ Para instalá-lo, você pode pesquisar no marketplace do VS Code.
 
 Após a instalação, reinicie o VS Code.
 
+Com o VS Code reiniciado, é preciso agora configurar o plugin Code Runner para que ele funcione corretamente. 
+
+Vá para a barra de menu do VS Code e Clique em **Arquivo -> Preferências -> Configurações**
+
+Será aberta uma aba semelhante à aba abaixo:
+
+![](images/tela2.png)
+
+Pesquise por **code runner** e depois clique em **code runner configuration**
+
+![](images/tela3.png)
+
+Busque a opção **Run in Terminal** e marque ela:
+
+![](images/tela4.png)
+
+Selecione também a opção **Save All Files Before Run**:
+
+![](images/tela5.png)
+
+Por fim, tecle CTRL+S para salvar as configurações.
+
+Pronto! O seu Code Runner está instalado e configurado.
+
 ---
 
 ## Criando um programa C++ simples
@@ -30,6 +54,8 @@ int main()
 }
 ```
 
+![](images/tela7.png)
+
 ---
 
 ## Executando seu código usando o Code Runner
@@ -39,6 +65,8 @@ int main()
 - Ou clique com o botão direito no editor de texto e clique em Run Code no menu de contexto do editor.
 
 O código será executado e a saída será mostrada na janela de saída. Abra a janela de saída com o atalho Ctrl+.
+
+![](images/tela6.png)
 
 
 
