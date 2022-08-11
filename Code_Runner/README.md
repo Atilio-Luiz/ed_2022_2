@@ -2,7 +2,7 @@
 
 Após instalar o compilador g++ do C++ e após instalar o VS Code, agora você pode instalar o plugin Code Runner.
 
-O Code Runner permite que você execute um trecho de código ou um arquivo de código em várias linguagens de programação, incluindo a linhuagem C++.
+O Code Runner permite que você execute um trecho de código ou um arquivo de código em várias linguagens de programação, incluindo códigos em linguagem C++.
 
 Para instalá-lo, você pode pesquisar no marketplace do VS Code.
 
