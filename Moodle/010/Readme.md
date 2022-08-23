@@ -1,28 +1,27 @@
-## L3 - Identificando elementos
-
+## Identificando elementos
 
 ![]( cover.jpg)
 
 ## Ação
 
-Dada uma frase(max 100 char) com palavras(letras minusculas), números, espaço e ponto, identifique os elementos como str, int ou float.
+Dada uma frase(max 100 char) com palavras (letras minúsculas), números, espaço e ponto, identifique os elementos como str, int ou float.
 
 Analise cada palavra\[max 10 char na palavra\].
 
 Regras:
 
 Float tem o ponto.  
-Int contem não tem ponto.  
+Int não tem ponto.  
 Int e float podem ser negativos.  
 Se existir pelo menos um alfabético então é string.
 
 ### Entrada
 
-*   Uma frase(max 100 char) com palavras(letras minusculas), números, espaço e ponto
+*   Uma frase(max 100 char) com palavras (letras minúsculas), números, espaço e ponto
 
 ### Saída
 
-*   o tipo de cada palavra( str, float ou int) separado por espaço.  
+*   o tipo de cada palavra (str, float ou int) separado por espaço.  
 
 ## Exemplos  
 

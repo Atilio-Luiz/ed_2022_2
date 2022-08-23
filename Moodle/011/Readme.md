@@ -1,7 +1,7 @@
-## L3 - MeU WoRd QuEbRoU
+## MeU WoRd QuEbRoU
 ### Formatação de Case
 
-![]( cover.jpg)
+![](cover.jpg)
 
 ## Motivação
 
@@ -9,11 +9,11 @@ O seu editor de texto deu problema. Seu orientador pediu que você formatasse to
 
 ## Ação
 
-Dado um texto, formate como for pedido (M - Toda maiúscula, m - toda minuscula, p - primeira maiúscula, i - inverter case). Observe que no primeiro maiúscula deixa como minuscula palavras de tamanho 1 como os artigos 'a', 'e', 'o'.
+Dado um texto, formate como for pedido (M - Toda maiúscula, m - toda minuscula, p - primeira maiúscula, i - inverter case). Observe que no primeiro maiúscula deixa como minúscula palavras de tamanho 1 como os artigos 'a', 'e', 'o'.
 
 Ignore pontuação, espaço e números.
 
-A entrada é composta de minusculas, maiúsculas, números, pontuações e espaços simples.
+A entrada é composta de minúsculas, maiúsculas, números, pontuações e espaços simples.
 
 ### Entrada
 

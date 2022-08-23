@@ -1,5 +1,4 @@
-## L2 - Organizando Ru - Homens e Mulheres!
-
+## Organizando o Ru - Homens e Mulheres!
 
 ![]( cover.jpg)
 
@@ -15,7 +14,7 @@ Cada frase tem até 100 char.
 
 ### Entrada
 
-*   1a linha: uma frase com letras minusculas e espaço apenas com ate 100 caracteres.  
+*   1a linha: uma frase com letras minúsculas e espaço, com até 100 caracteres.  
 
 ### Saida
 

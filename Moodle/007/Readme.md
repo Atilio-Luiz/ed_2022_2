@@ -1,4 +1,4 @@
-## L3 - Francês é Fresco
+## Francês é Fresco
 ### Juntar palavras
 
 ![]( cover.jpg)
