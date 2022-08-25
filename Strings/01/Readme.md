@@ -8,7 +8,7 @@
 Joãozinho chega na escola com o trabalho digitado e a professora  
 pergunta:  
 \- Porque esse trabalho com esses espaços desse jeito?  
-"briofitas   sao plantas     e pteridofilas      sao    dinossauros    que     voam"
+"briofitas   sao plantas           e pteridofilas     sao     dinossauros     que voam"
 
 \- É que meu poodle bateu no espaço do meu notebook e agora ele tá  
 doido fessora.  
