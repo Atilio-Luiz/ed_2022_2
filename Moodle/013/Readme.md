@@ -35,7 +35,7 @@ O objetivo desta atividade é implementar um TAD chamado **Matriz** usando obrig
 | `exit` | Sai do programa liberando todos os objetos criados |
 | `printmatrix k` | Imprime a (k+1)-ésima matriz criada |
 | `nlinhas k` | Imprime o número de linhas da (k+1)-ésima matriz criada |
-| `ncolunas k` | Imprime o número de linhas da (k+1)-ésima matriz criada |
+| `ncolunas k` | Imprime o número de colunas da (k+1)-ésima matriz criada |
 | `getvalor i j k` | Imprime o valor contido na posição (i,j) da (k+1)-ésima matriz criada |
 | `sum p q` | Soma a (p+1)-ésima matriz com a (q+1)-ésima matriz e imprime a matriz resultante na tela. |
 | `multiply p q` | Multiplica a (p+1)-ésima matriz com a (q+1)-ésima matriz e imprime a matriz resultante na tela. |
