@@ -43,15 +43,18 @@ O objetivo desta atividade é implementar um TAD chamado **Matriz** usando obrig
 ---
 ### Exemplo de Entrada
 
+```
 creatematrix 5 5
 0 2 0 3 1 9 -8 23 0 1 -33 87 2 6 7 0 1 4 0 9 0 3 0 1 3
 nlinhas 0
 ncolunas 0
 printmatrix 0
 exit
+```
 
 ### Exemplo de Saída
 
+```
 linhas: 5
 colunas: 5
       0      2      0      3      1
@@ -60,6 +63,7 @@ colunas: 5
       0      1      4      0      9
       0      3      0      1      3
 matriz liberada
+```
       
 ---
 ## Esqueleto
