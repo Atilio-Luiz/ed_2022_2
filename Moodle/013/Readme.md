@@ -25,7 +25,7 @@ O objetivo desta atividade é implementar um TAD chamado **Matriz** usando obrig
 
 - O código do TAD **Matriz** deve ser dividido em dois arquivos: *Matriz.h* e *Matriz.cpp* como explicado em sala. O código do arquivo *Matriz.h* já foi escrito e pode ser encontrado em anexo logo acima nesta atividade, na pasta **projeto**. Você precisa apenas implementar as funções-membro da classe **Matriz** no arquivo *Matriz.cpp*, que está incompleto.
 
-- Além disso, assim como no exercício do TAD Circle, o código do programa *main.cpp* já está feito. O programa principal lê comandos passados como entrada e manipula uma ou mais matrizes. Os comandos aceitos pelo menu principal estão listados abaixo.
+- Além disso, o código do programa cliente *main.cpp* já está feito. O programa principal lê comandos passados como entrada e manipula uma ou mais matrizes. Os comandos aceitos pelo menu principal estão listados abaixo.
 
 ### Comandos do programa principal
 
