@@ -77,8 +77,6 @@ g++-14 --version
 A ferramenta **update-alternatives** é usada para criar uma lista de várias alternativas de compilador g++. Usando os comandos abaixo mencionados, o usuário pode criar a lista de várias alternativas g++ no sistema Ubuntu:
 
 ```
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
-
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-13 13
 
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 14
@@ -93,7 +91,7 @@ sudo update-alternatives --config g++
 
 Verifique a versão g++ disponível na lista exibida no terminal da seguinte forma:
 
-![](images/tela3.png)
+![](images/t04.png)
 
 Escolha a versão do compilador g++ que você deseja usar como o compilador padrão para desenvolvimento de software. Pressione 'enter' para manter a escolha atual definida como padrão ou selecione o número da lista de alternativas do g++.
 
@@ -103,6 +101,6 @@ Agora, você pode verificar a versão do g++ que está sendo usada com o seguint
 g++ --version
 ```
 
-![](images/tela4.png)
+![](images/t05.png)
 
 Pronto! Com isso, a versão mais recente do compilador g++ está instalada no seu Ubuntu!
