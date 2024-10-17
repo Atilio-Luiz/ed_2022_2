@@ -77,15 +77,11 @@ g++-14 --version
 A ferramenta **update-alternatives** é usada para criar uma lista de várias alternativas de compilador g++. Usando os comandos abaixo mencionados, o usuário pode criar a lista de várias alternativas g++ no sistema Ubuntu:
 
 ```
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
-
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
-
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
-
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-11 11
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-13 13
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-14 14
 ```
 
 
