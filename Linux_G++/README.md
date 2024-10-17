@@ -53,7 +53,7 @@ Uma saída parecida com a imagem abaixo deve ser mostrada:
 
 Este comando lista todas as versões g++ disponíveis. Escolha a versão que se adapta às suas necessidades.
 
-Depois de decidir qual versão você precisa, você pode instalá-la. Eu escolhi intalar a versão 14 do g++:
+Depois de decidir qual versão você precisa, você pode instalá-la. Eu escolhi instalar a versão 14 do g++:
 
 
 ```
