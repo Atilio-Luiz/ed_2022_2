@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-Este comando instala a versão padrão mais recente do G++ disponível nos repositórios da sua distribuição Ubuntu atual e é suficiente para a maioria dos usuários. O último comando acima instala alguns pacotes úteis incluindo g++, gcc e make.
+Este comando instala a versão padrão mais recente do g++ disponível nos repositórios da sua distribuição Ubuntu atual e é suficiente para a maioria dos usuários. O último comando acima instala alguns pacotes úteis incluindo g++, gcc e make.
 
 ---
 
@@ -30,7 +30,7 @@ g++ --version
 
 Se o g++ estiver instalado, uma mensagem parecida com esta deve aparecer no terminal:
 
-![](images/tela.png)
+![](images/t01.png)
 
 Pronto! Com isso, você já tem o g++ instalado na sua máquina e já pode programar. Se você quiser seguir em frente e instalar outras versões do mesmo compilador, siga os passos abaixo.
 
@@ -38,10 +38,26 @@ Pronto! Com isso, você já tem o g++ instalado na sua máquina e já pode progr
 
 ## Passo 3. Instalando múltiplas versões do g++ no seu sistema
 
-Após ter instalado o build-essential nas etapas anteriores, você pode instalar múltiplas versões do compilador g++ no seu sistema, se você quiser. Para isso, você pode digitar no terminal o comando abaixo:
+
+Se uma versão específica do g++ for necessária, talvez para fins de compatibilidade ou testes, você poderá instalá-la junto com a versão padrão. Após ter instalado o build-essential nas etapas anteriores, você pode instalar múltiplas versões do compilador g++ no seu sistema, se você quiser. 
+
+Primeiro, verifique quais versões do g++ estão disponíveis para instalaçãoo seu sistema, digitando o comando abaixo no terminal do linux:
 
 ```
-sudo apt install -y g++-7 g++-8 g++-9 g++-10
+apt search '^g\+\+-[0-9]+$'
+```
+
+Uma saída parecida com a imagem abaixo deve ser mostrada:
+
+![](images/t02.png)
+
+Este comando lista todas as versões g++ disponíveis. Escolha a versão que se adapta às suas necessidades.
+
+Depois de decidir qual versão você precisa, você pode instalá-la:
+
+
+```
+sudo apt install g++-14
 ```
 
 O comando acima será concluído em alguns minutos após a instalação de todas as versões do compilador g++ em seu sistema Ubuntu.
