@@ -60,7 +60,7 @@ Depois de decidir qual versão você precisa, você pode instalá-la:
 sudo apt install g++-14
 ```
 
-O comando acima será concluído em alguns minutos após a instalação de todas as versões do compilador g++ em seu sistema Ubuntu.
+O comando acima será concluído em alguns minutos após a instalação da versão escolhida do compilador g++ em seu sistema linux.
 
 ---
 
