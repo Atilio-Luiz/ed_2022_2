@@ -1,14 +1,14 @@
-# Instalando e usando o g++ 11 no Ubuntu
+# Instalando e usando o g++ no Ubuntu
 
 O compilador g++ GNU é um compilador de sistema Linux usado especificamente para compilar programas C++. As extensões de arquivo desses programas são .cpp que são compiladas usando o compilador g++.
 
-A instalação padrão do g++ no Linux não vem com as versões mais recentes das bibliotecas, portanto, se você quiser aproveitar os recursos oferecidos pelos novos padrões C++ (C++17 ou C++20), você precisa instalar e alternar manualmente as bibliotecas.
+A instalação padrão do g++ no seu Linux pode não vir com as versões mais recentes das bibliotecas do C++, portanto, se você quiser aproveitar os recursos oferecidos pelos novos padrões C++ (C++17 ou C++20 por exemplo), você precisa instalar e alternar manualmente as bibliotecas.
 
-Este tutorial tem como objetivo fornecer um guia detalhado sobre como instalar e usar o compilador g++ no sistema Ubuntu 20.04 LTS em diante. Você pode atingir esse objetivo instalando algumas ferramentas de desenvolvimento chamadas pacotes essenciais de compilação em seu sistema.
+Este tutorial tem como objetivo fornecer um guia detalhado sobre como instalar e usar o compilador g++ no sistema Ubuntu 20.04 LTS em diante e seus derivados como Linux Mint, etc. Você pode atingir esse objetivo instalando algumas ferramentas de desenvolvimento chamadas pacotes essenciais de compilação em seu sistema.
 
 ## Passo 1. Instalando o *build-essential*
 
-O repositório padrão oficial do Ubuntu contém várias ferramentas ou pacotes de desenvolvimento. Você pode instalar essas ferramentas diretamente instalando um meta-pacote do Ubuntu chamado "build-essential" em seu sistema que inclui as importantes bibliotecas de desenvolvimento, depurador GNU e coleções de compiladores necessários para compilar aplicativos C/C++. Portanto, é necessário instalar build-essential em seu sistema antes de instalar qualquer compilador. Digite os seguintes comandos de terminal para instalar as ferramentas de desenvolvimento:
+O repositório padrão oficial do Ubuntu contém várias ferramentas ou pacotes de desenvolvimento. Você pode instalar essas ferramentas diretamente instalando um meta-pacote do Ubuntu chamado "build-essential" em seu sistema que inclui as importantes bibliotecas de desenvolvimento, depurador GNU e coleções de compiladores necessários para compilar aplicativos C/C++. Portanto, é necessário instalar build-essential em seu sistema antes de instalar qualquer compilador. Digite os seguintes comandos no terminal do linux para instalar as ferramentas de desenvolvimento:
 
 ```
 sudo apt update
@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-O último comando acima instala alguns pacotes úteis incluindo g++, gcc e make.
+Este comando instala a versão padrão mais recente do G++ disponível nos repositórios da sua distribuição Ubuntu atual e é suficiente para a maioria dos usuários. O último comando acima instala alguns pacotes úteis incluindo g++, gcc e make.
 
 ---
 
