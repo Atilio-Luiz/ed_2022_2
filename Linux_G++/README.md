@@ -53,7 +53,7 @@ Uma saída parecida com a imagem abaixo deve ser mostrada:
 
 Este comando lista todas as versões g++ disponíveis. Escolha a versão que se adapta às suas necessidades.
 
-Depois de decidir qual versão você precisa, você pode instalá-la:
+Depois de decidir qual versão você precisa, você pode instalá-la. Eu escolhi intalar a versão 14 do g++:
 
 
 ```
@@ -62,29 +62,13 @@ sudo apt install g++-14
 
 O comando acima será concluído em alguns minutos após a instalação da versão escolhida do compilador g++ em seu sistema linux.
 
----
-
-## Passo 4. Instalando a versão mais recente do g++ no seu sistema
-
-Para instalar a versão mais recente do g++ (g++11) no seu sistema, inicialmente adicione o repositório:
-
-```
-sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-```
-
-Depois, instale o g++11 com o seguinte comando:
-
-```
-sudo apt install -y g++-11
-```
-
 Agora você pode verificar se a instalação foi concluída com sucesso verificando a versão do g++:
 
 ```
-g++-11 version
+g++-14 --version
 ```
 
-![](images/tela2.png)
+![](images/t03.png)
 
 ---
 
